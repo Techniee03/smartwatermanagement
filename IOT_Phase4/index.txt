@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Water Consumption Dashboard</title>
+</head>
+<body>
+    <header>
+       <center> <h1>Water Consumption Dashboard</h1></center>
+    </header>
+    <div class="container">
+        <div id="waterData">
+            <h2>Real-Time Water Consumption</h2>
+            <p id="waterValue">Loading...</p>
+        </div>
+        <div id="promotion">
+            <h2>Promote Water Conservation</h2>
+            <p>Conserve water for a sustainable future!</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
